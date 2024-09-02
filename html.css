@@ -1,0 +1,36 @@
+body{ background-color: black;
+}
+h1{color: antiquewhite; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+@keyframes colorChange1 {
+    0% { color: red; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: yellow; }
+    100% { color: red; }
+}
+
+.color-changing1 {
+    font-size: 24px;
+    font-weight: bold;
+    animation: colorChange1 4s infinite;
+}
+@keyframes colorChange2 {
+   0%{
+    color: #ff0073;
+   }
+   50% {
+    color: rgb(255, 91, 241);
+   }
+   100%{
+    color: rgb(255, 151, 226);
+   }
+}
+.color-changing2{
+    animation: colorChange2 2s infinite;
+}
+.owo {
+    text-align: center; 
+    margin-top: 50px;   
+}
